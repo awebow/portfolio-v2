@@ -99,7 +99,7 @@ class Projects extends React.Component<any, State> {
         var targets = projects;
 
         if(this.state.keyword.length > 0)
-            targets = targets.filter(e => e.name.indexOf(this.state.keyword) != -1);
+            targets = targets.filter(e => e.name.toLowerCase().indexOf(this.state.keyword.toLowerCase()) != -1);
 
         if(stackFilter.length > 0)
             targets = targets.filter(e => stackFilter.some(f => e.stack.some(s => s == f)))
