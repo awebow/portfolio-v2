@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Project - Sweeter</title>
+
+        <link rel="stylesheet" href="doc.css" />
+    </head>
+    <body>
+        <h1>Project - Sweeter</h1>
+
+        <nav>
+            <ol>
+                <li><a href="#s1">개요</a></li>
+                <li>
+                    <a href="#s2">기술 설명</a>
+                    <ol>
+                        <li><a href="#s2.1">Flutter</a></li>
+                        <li><a href="#s2.2">BLoC</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="#s3">기능 설명</a>
+                    <ol>
+                        <li><a href="#s3.1">로그인 / 회원가입</a></li>
+                        <li><a href="#s3.2">타임라인</a></li>
+                        <li><a href="#s3.3">스윗 작성</a></li>
+                        <li><a href="#s3.4">프로필</a></li>
+                    </ol>
+                </li>
+            </ol>
+
+            <section id="s1">
+                <h2>1. 개요</h2>
+
+                <iframe width="854" height="480" src="https://mystream.mshnet.xyz/embedded/01FFJRS84M7TA34CJ09XJVPDE9" frameborder="0" allowfullscreen></iframe>
+                <p>
+                    Sweeter는 Flutter로 제작된 트위터 클론 모바일 소셜 네트워크 서비스입니다.
+                    트윗, 타임라인, 프로필 사진, 팔로잉 등의 기능을 제공하여 트위터와 유사한 서비스를 제공합니다.
+                    백엔드 서버는 Go를 통해 GraphQL API로 만들어졌습니다.
+                </p>
+            </section>
+
+            <section id="s2">
+                <h2>2. 기술 설명</h2>
+
+                <section id="s2.1">
+                    <h3>2.1. Flutter</h3>
+
+                    <p>
+                        Flutter는 구글의 크로스 플랫폼 앱 개발 프레임워크로
+                        Android, iOS, Web, Windows, Linux, macOS를 지원하며, 개발 언어로는 Dart를 사용합니다.
+                        각 플랫폼의 UI 요소를 사용하지 않고 Skia라는 자체 렌더링 엔진을 통해 새로 렌더링하기 때문에
+                        플랫폼에 종속적이지 않고 높은 호환성을 보장합니다.
+                    </p>
+                </section>
+
+                <section id="s2.2">
+                    <h3>2.2. BLoC</h3>
+
+                    <p>
+                        BLoC(<strong>B</strong>usiness <strong>Lo</strong>gic <strong>C</strong>omponents)은
+                        UI와 비즈니스 로직을 분리해서 서로의 의존성을 낮춘 디자인 패턴입니다.
+                        UI는 BLoC을 구독하여 BLoC의 데이터에 변화가 발생하면 이를 반영하여 다시 렌더링하는 것이 BLoC 패턴의 핵심입니다.
+                    </p>
+                </section>
+            </section>
+
+            <section id="s3">
+                <h2>3. 기능 설명</h2>
+
+                <section id="s3.1">
+                    <h3>3.1. 로그인 / 회원가입</h3>
+
+                    <img src="sweeter_login.jpg" width="300" />
+                    <p>
+                        앱을 실행하면 스플래시 페이지가 표시된 뒤 로그인 페이지로 이동합니다.
+                        로그인 페이지에서 아이디, 비밀번호를 입력하여 로그인하면 타임라인으로 이동합니다.
+                    </p>
+
+                    <img src="sweeter_register.jpg" width="300" />
+                    <p>
+                        로그인 페이지에서 로그인 버튼 아래의 회원가입 문구를 터치하면 회원가입 페이지로 이동합니다.
+                        폼을 작성한 뒤 하단의 회원가입 버튼을 터치하면 회원가입이 완료됩니다.
+                    </p>
+                </section>
+
+                <section id="s3.2">
+                    <h3>3.2. 타임라인</h3>
+
+                    <img src="sweeter_timeline.jpg" width="300" />
+                    <p>타임라인에는 본인과 팔로우 한 사용자들의 스윗들이 표시됩니다.</p>
+
+                    <img src="sweeter_refresh.jpg" width="300" />
+                    <p>타임라인의 최상단에서 타임라인을 아래로 잡아당기면 타임라인을 새로고침 할 수 있습니다.</p>
+                </section>
+
+                <section id="s3.3">
+                    <h3>3.3. 스윗 작성</h3>
+
+                    <img src="sweeter_write.jpg" width="300" />
+                    <p>
+                        타임라인의 우측 하단의 연필 모양의 아이콘을 터치하면 스윗 작성 페이지로 이동합니다.
+                        스윗 작성 페이지에서 스윗 내용을 입력하고 우측 상단의 연필 모양을 터치하면 스윗이 작성됩니다.
+                    </p>
+                </section>
+
+                <section id="s3.4">
+                    <h3>3.4. 프로필</h3>
+
+                    <img src="sweeter_profile.jpg" width="300" />
+                    <p>
+                        타임라인에서 우측 상단의 사용자 아이콘을 터치하면 자신의 프로필 페이지로 이동하고,
+                        스윗의 프로필 사진을 터치하면 스윗 작성자의 프로필 페이지로 이동합니다.
+                    </p>
+
+                    <p>프로필 페이지에서는 사용자의 프로필 사진, 팔로잉 / 팔로워 수, 스윗을 확인할 수 있습니다.</p>
+                    <p>자신의 프로필 페이지에서 프로필 사진을 터치하면 프로필 사진을 변경할 수 있습니다.</p>
+                    <p>다른 사용자의 프로필 페이지에서 우측 상단의 팔로우 버튼을 터치하면 해당 사용자를 팔로우 할 수 있습니다.</p>
+                    <p>팔로잉 / 팔로워 수를 터치하면 팔로잉 / 팔로워 목록을 확인할 수 있습니다.</p>
+                </section>
+            </section>
+        </nav>
+    </body>
+</html>

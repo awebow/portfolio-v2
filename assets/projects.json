@@ -1,0 +1,189 @@
+[
+    {
+        "name": "토스트",
+        "description": "WebRTC와 머신러닝을 이용한 화상 영어 스터디 플랫폼\n제9기 SW마에스트로 과정 인증",
+        "image": "/toast.jpg",
+        "stack": ["java", "spring", "nodejs", "react", "mysql", "aws"],
+        "links": [
+            {
+                "icon": "/document.svg",
+                "text": "소개 자료",
+                "url": "/toast.pdf"
+            },
+            {
+                "icon": "/mystream.svg",
+                "text": "데모 영상",
+                "url": "https://mystream.mshnet.xyz/videos/01FEBTY7NHDHN097NGSXYQR0TV"
+            },
+            {
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+                "text": "소스 코드(백엔드)",
+                "url": "https://github.com/teamtoast/toast-server"
+            },
+            {
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+                "text": "소스 코드(프론트엔드)",
+                "url": "https://github.com/teamtoast/toast-pc"
+            }
+        ]
+    },
+    {
+        "name": "MyStream",
+        "description": "MPEG-DASH를 이용한 스케일링 가능한 동영상 스트리밍 플랫폼",
+        "image": "/mystream.jpg",
+        "stack": ["go", "nodejs", "vuejs", "mysql", "redis", "aws"],
+        "links": [
+            {
+                "icon": "/document.svg",
+                "text": "소개 자료",
+                "url": "/mystream.html"
+            },
+            {
+                "icon": "/mystream.svg",
+                "text": "데모 사이트",
+                "url": "https://mystream.mshnet.xyz/"
+            },
+            {
+                "icon": "/mystream.svg",
+                "text": "데모 영상",
+                "url": "https://mystream.mshnet.xyz/videos/01FDPJ2XSZFV4SJ22B50NDCJ4Q"
+            },
+            {
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+                "text": "소스 코드(백엔드)",
+                "url": "https://github.com/awebow/MyStream-API"
+            },
+            {
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+                "text": "소스 코드(프론트엔드)",
+                "url": "https://github.com/awebow/mystream-web"
+            },
+            {
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+                "text": "소스 코드(인코더)",
+                "url": "https://github.com/awebow/MyStream-Encoder"
+            }
+        ]
+    },
+    {
+        "name": "Extras' Escape",
+        "description": "스타트업 Foxtail Games의 Android, iOS 아케이드 게임\nJava 기반의 크로스 플랫폼 OpenGL 프레임워크 LibGDX를 사용하여 개발",
+        "image": "/exes.jpg",
+        "stack": ["java", "opengl", "go", "graphql", "mysql", "aws"],
+        "links": [
+            {
+                "icon": "/document.svg",
+                "text": "소개 자료",
+                "url": "/exes.html"
+            },
+            {
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg",
+                "text": "다운로드(APK)",
+                "url": "https://drive.google.com/file/d/1UP3i6PfcCbbesY91UKE02DBSDXJJJD87/view?usp=sharing"
+            },
+            {
+                "icon": "/mystream.svg",
+                "text": "플레이 영상",
+                "url": "https://mystream.mshnet.xyz/videos/01FFJR4T876V4EZMZXN53TCJ8K"
+            },
+            {
+                "icon": "/mystream.svg",
+                "text": "오프닝 영상",
+                "url": "https://mystream.mshnet.xyz/videos/01FFJPHZGQCCE6E9S3FFZNHA79"
+            }
+        ]
+    },
+    {
+        "name": "Sweeter",
+        "description": "Flutter로 개발한 트위터 클론 앱",
+        "image": "/sweeter.jpg",
+        "stack": ["flutter", "dart", "go", "mysql"],
+        "links": [
+            {
+                "icon": "/document.svg",
+                "text": "소개 자료",
+                "url": "/sweeter.html"
+            },
+            {
+                "icon": "/mystream.svg",
+                "text": "데모 영상",
+                "url": "https://mystream.mshnet.xyz/videos/01FFJRS84M7TA34CJ09XJVPDE9"
+            },
+            {
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+                "text": "소스 코드(백엔드)",
+                "url": "https://github.com/awebow/sweeter-backend"
+            },
+            {
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+                "text": "소스 코드(프론트엔드)",
+                "url": "https://github.com/awebow/sweeter-mobile"
+            }
+        ]
+    },
+    {
+        "name": "Dokkandex",
+        "description": "모바일 게임 '드래곤볼 Z 폭렬격전'의 카드 정보 제공 사이트\nNetlify에서 서비스 중",
+        "image": "/dokkandex.jpg",
+        "stack": ["nodejs", "vuejs", "sqlite"],
+        "links": [
+            {
+                "icon": "/web.svg",
+                "text": "웹 사이트",
+                "url": "https://dokkandex.netlify.app"
+            },
+            {
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+                "text": "소스 코드",
+                "url": "https://github.com/awebow/dokkandex"
+            }
+        ]
+    },
+    {
+        "name": "숙박업소 위치 추천 서비스",
+        "description": "머신러닝을 이용한 서울의 숙박업소 창업 적합 위치 분석 및 시각화",
+        "image": "/newtech.png",
+        "stack": ["python", "tensorflow", "nodejs"],
+        "links": [
+            {
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+                "text": "소스 코드 & 문서",
+                "url": "https://github.com/philjjoon/2019-1-GROUP-1"
+            }
+        ]
+    },
+    {
+        "name": "빨간토마토",
+        "description": "Go, Nuxt.js, 토스페이먼츠를 이용한 온라인 쇼핑몰",
+        "image": "/redto.jpg",
+        "stack": ["nodejs", "vuejs", "nuxtjs", "go", "mongodb"],
+        "links": [
+        ]
+    },
+    {
+        "name": "HACKER 신입생 여름방학 합숙 교육 자료",
+        "description": "경희대학교 컴퓨터공학과 학술 동아리 HACKER 신입생 대상 여름방학 웹 프로그래밍 교육 자료",
+        "image": "/hackerweb.jpg",
+        "stack": ["nodejs", "vuejs"],
+        "links": [
+            {
+                "icon": "/web.svg",
+                "text": "교육 자료",
+                "url": "https://khuhacker.github.io/2019-summer"
+            }
+        ]
+    },
+    {
+        "name": "마수현's Developer Portfolio",
+        "description": "현재 보고 있는 포트폴리오 페이지",
+        "image": "/portfolio.jpg",
+        "stack": ["nodejs", "react", "nextjs", "typescript"],
+        "links": [
+            {
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+                "text": "소스 코드",
+                "url": "https://github.com/awebow/portfolio-v2"
+            }
+        ]
+    }
+]

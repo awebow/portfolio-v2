@@ -1,0 +1,76 @@
+body {
+    font-family: Roboto, Helvetica, Arial, "Noto Sans CJK KR", "Noto Sans KR", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    max-width: 1024px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+figure {
+    width: 100%;
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    margin: 0;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 0;
+}
+
+a {
+    color: #00a2ff;
+    text-decoration: none;
+}
+
+nav ol {
+    counter-reset: item;
+}
+
+nav > ol {
+    padding-left: 0;
+}
+
+nav ol li {
+    display: block;
+}
+
+nav ol li::before {
+    content: counters(item, ".") ". ";
+    counter-increment: item;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
